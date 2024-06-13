@@ -2,9 +2,9 @@
 This Streamlit application serves as a tool to generate responses based on user input, utilizing the Llama-2-13b model from Hugging Face and a pre-trained MiniLM-L6-v2 model for embeddings. The application allows users to upload a dataset in Excel format containing 'Query' and 'Response' columns. Upon uploading the dataset, users can input a prompt, and the system generates a response based on the input prompt using the pre-trained models.
 
 ## Features
-1.Dataset Upload: Users can upload an Excel file containing a dataset with 'Query' and 'Response' columns.
-2.Prompt-based Response: Users can input a prompt, and the system generates a response based on the input prompt using the pre-trained models.
-3.Response Exploration: The application provides the capability to explore the raw response object and the source text.
+-Dataset Upload: Users can upload an Excel file containing a dataset with 'Query' and 'Response' columns.
+-Prompt-based Response: Users can input a prompt, and the system generates a response based on the input prompt using the pre-trained models.
+-Response Exploration: The application provides the capability to explore the raw response object and the source text.
 
 1. Clone the repository:
 
