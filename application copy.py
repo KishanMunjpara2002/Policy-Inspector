@@ -14,7 +14,7 @@ st.title('👷🏻 Pocily Inspector')
 
 # Define variable to hold llama2 weights naming
 name = "meta-llama/Llama-2-13b-chat-hf"
-auth_token = "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"
+auth_token = " "
 
 @st.cache_resource
 def get_tokenizer_model():
