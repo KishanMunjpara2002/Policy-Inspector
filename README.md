@@ -1,13 +1,6 @@
+#Policy-Inspector
 
-```markdown
-# Policy Inspector
-
-Policy Inspector is a Streamlit application for inspecting policies and generating responses based on user queries. It utilizes a language model and a vector indexing system to provide relevant responses from a dataset.
-
-## Overview
-
-This application is designed to streamline the process of inspecting policies by allowing users to input queries related to the policy and receive relevant responses. It uses the [Hugging Face Transformers](https://huggingface.co/) library for language model fine-tuning and [LLAMA Index](https://github.com/LLNL/LLAMA) for indexing and querying responses.
-
+Got it! I've added the README file to your GitHub repository. If you need any further modifications or have any other questions, feel free to ask!
 ## Installation
 
 1. Clone the repository:
@@ -16,27 +9,21 @@ This application is designed to streamline the process of inspecting policies by
 git clone https://github.com/KishanMunjpara2002/Policy-Inspector.git
 ```
 
-2. Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 3. Run the Streamlit application:
 
 ```bash
-streamlit run app.py
+streamlit run application copy.py
 ```
 
 ## Usage
 
-1. Upon running the application, upload an Excel dataset containing policy-related queries and responses.
-
-2. Once the dataset is uploaded, the application will display the loaded dataset.
-
-3. You can input your query in the provided text box.
-
-4. The application will provide a response based on the query from the uploaded dataset.
+1.After running the Streamlit app, the user interface will open in your default web browser.
+2.Upload your dataset in Excel format using the provided file uploader. The dataset should contain 'Query' and 'Response' columns.
+3.Once the dataset is uploaded successfully, you will see the first few rows of the dataset.
+4.Input your prompt in the text input box provided.
+5.Press Enter, and the application will generate a response based on the input prompt.
+6.The generated response will be displayed on the screen.
+7.To explore the raw response object and the source text, you can expand the respective sections.
 
 ## Requirements
 
