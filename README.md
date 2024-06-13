@@ -12,10 +12,16 @@ This Streamlit application serves as a tool to generate responses based on user 
 git clone https://github.com/KishanMunjpara2002/Policy-Inspector.git
 ```
 
-3. Run the Streamlit application:
+2. Run the Streamlit application:
 
 ```bash
 streamlit run application copy.py
+```
+
+3. Huggingface Token:
+
+```bash
+Use your token to access and download model.
 ```
 
 ## Usage
