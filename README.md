@@ -1,7 +1,10 @@
-#Policy-Inspector
+#Streamlit App for Policy Inspector
+This Streamlit application serves as a tool to generate responses based on user input, utilizing the Llama-2-13b model from Hugging Face and a pre-trained MiniLM-L6-v2 model for embeddings. The application allows users to upload a dataset in Excel format containing 'Query' and 'Response' columns. Upon uploading the dataset, users can input a prompt, and the system generates a response based on the input prompt using the pre-trained models.
 
-Got it! I've added the README file to your GitHub repository. If you need any further modifications or have any other questions, feel free to ask!
-## Installation
+##Features
+Dataset Upload: Users can upload an Excel file containing a dataset with 'Query' and 'Response' columns.
+Prompt-based Response: Users can input a prompt, and the system generates a response based on the input prompt using the pre-trained models.
+Response Exploration: The application provides the capability to explore the raw response object and the source text.
 
 1. Clone the repository:
 
@@ -37,7 +40,7 @@ streamlit run application copy.py
 
 ## Configuration
 
-Before running the application, make sure to set up the required configurations in the `app.py` file. 
+Before running the application, make sure to set up the required configurations in the  file. 
 
 - `name`: The name of the Hugging Face model.
 - `auth_token`: Authentication token for accessing the model.
@@ -50,9 +53,10 @@ Before running the application, make sure to set up the required configurations 
 - `chunk_size`: Chunk size for the service context.
 - `model_name`: Name of the Hugging Face model for embeddings.
 
-## Contributors
-
-- [Your Name](https://github.com/YourGitHubUsername)
+##Libraries and Frameworks Used
+Streamlit: Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
+Pandas: Pandas is a fast, powerful, flexible, and easy-to-use open-source data analysis and manipulation library built on top of the Python programming language.
+Hugging Face Transformers: Transformers provides thousands of pre-trained models to perform tasks on texts such as classification, information extraction, question answering, summarization, translation, text generation, etc., in over 100 languages.
 
 ## License
 
