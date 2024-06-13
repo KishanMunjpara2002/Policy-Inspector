@@ -71,6 +71,8 @@ Hugging Face Transformers: Transformers provides thousands of pre-trained models
 
 - Relevance to Business: Since the queries and responses are focused on the policy of the company, the dataset reflects real-world scenarios and situations that users might encounter. This ensures that the evaluation of the chatbot's performance is directly relevant to the business context.
 
+- Structured Format: The dataset is in a structured format, typically in Excel, making it easy to process and analyze. This structured nature enables systematic evaluation of the chatbot's performance and facilitates the comparison of expected versus generated responses.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
