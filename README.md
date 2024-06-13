@@ -64,6 +64,13 @@ Streamlit: Streamlit is an open-source Python library that makes it easy to crea
 Pandas: Pandas is a fast, powerful, flexible, and easy-to-use open-source data analysis and manipulation library built on top of the Python programming language.
 Hugging Face Transformers: Transformers provides thousands of pre-trained models to perform tasks on texts such as classification, information extraction, question answering, summarization, translation, text generation, etc., in over 100 languages.
 
+## why I feel this is a comprehensive dataset to gauge the performance of my chatbot.
+- Diverse Query Types: The dataset contains various types of queries that users might input. These queries can range from simple inquiries to complex questions, covering a wide range of topics related to the policy of the company.
+
+- Realistic Responses: The dataset provides corresponding responses to each query, reflecting the kind of answers users might expect from a chatbot. These responses are based on the policies and guidelines of the company, ensuring that the chatbot's answers are aligned with the organization's standards.
+
+- Relevance to Business: Since the queries and responses are focused on the policy of the company, the dataset reflects real-world scenarios and situations that users might encounter. This ensures that the evaluation of the chatbot's performance is directly relevant to the business context.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
