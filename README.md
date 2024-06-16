@@ -23,7 +23,10 @@ streamlit run application copy.py
 ```bash
 Use your token to access and download model.
 ```
-
+4. Cach directory path
+```bash
+change your dir path according to space availability.
+```
 ## Usage
 
 1.After running the Streamlit app, the user interface will open in your default web browser.
